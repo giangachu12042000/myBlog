@@ -1,0 +1,46 @@
+
+.box{
+    padding: 30px 0px !important;
+    .box-image{
+        position: relative;
+        padding: 0px 15px;
+    }
+    h4{
+        margin-bottom: 1.7rem !important;
+    }
+    .box-content{
+        top: -120px;
+        background-color: #fff;
+        .title{
+            text-align: center;
+        }
+        .views{
+            color: rgb(20, 58, 20);
+            font-size: 10px;
+            font-weight: 800;
+        }
+        .description {
+            color: #666;
+            font-size: 14px;
+            display: -webkit-box;
+            max-height: 72px;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            -webkit-line-clamp: 5;
+            line-height: 26px;
+        }
+    }
+    .box-detail{
+        .views{
+            color: rgb(20, 58, 20);
+            font-size: 10px;
+            font-weight: 800;
+        }
+        .border-bottom-1px{
+            border-bottom: 1px solid rgb(109, 108, 108);
+            margin:5px 0px;
+        }
+    }
+}

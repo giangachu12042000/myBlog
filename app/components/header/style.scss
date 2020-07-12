@@ -1,0 +1,44 @@
+
+.box-header{
+    height: 50px;
+    background-color: #2b2b2b;
+    ul{
+        padding: 0px 15px;
+        margin:0px;
+        list-style: none;
+        .menu-item{
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+            padding: 10px 0px;
+            .item-text{
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .menu-down{ 
+                background-color: #8f8d8d;
+                display: none;
+                border-radius: 5px;
+                min-width: 260px;
+                position: absolute;
+                .list-menu-down{ 
+                    padding: 5px 0px ;
+                    .link-name{
+                        color: #fff;
+                    }
+                    &:hover{
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &:hover .menu-down{
+                display: block; 
+                z-index: 5;
+            }
+        }
+    }
+}

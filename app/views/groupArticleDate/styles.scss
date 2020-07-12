@@ -1,0 +1,13 @@
+
+.description {
+    color: #666;
+    font-size: 14px;
+    display: -webkit-box;
+    max-height: 72px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+    line-height: 24px;
+}

@@ -1,0 +1,28 @@
+
+.box{
+    padding: 30px 0px;
+    .box-image{
+        position: relative;
+    } 
+    .box-content{
+        top: -120px;
+        background-color: #fff;
+        padding: 15px;
+        .title{
+            text-align: center !important;
+        }
+        .description {
+            color: #666;
+            font-size: 14px;
+            display: -webkit-box;
+            max-height: 72px;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            -webkit-line-clamp: 3;
+            line-height: 24px;
+        }
+    }
+    
+}

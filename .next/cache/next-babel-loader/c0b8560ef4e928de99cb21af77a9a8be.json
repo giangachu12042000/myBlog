@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { withRouter } from 'next/router';\n\nconst Admin = () => {\n  return __jsx(\"div\", null, \"ADMIN\");\n};\n\nexport default withRouter(Admin);","map":null,"metadata":{},"sourceType":"module"}

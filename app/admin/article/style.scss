@@ -1,0 +1,19 @@
+
+ 
+.box-form{
+   margin-bottom: 40px;
+}
+.des {
+   color: #666;
+   font-size: 14px;
+   display: -webkit-box;
+   max-height: 42px;
+   max-width: 200px;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: normal;
+   -webkit-line-clamp: 2;
+   line-height: 24px;
+   margin: 0px;
+}

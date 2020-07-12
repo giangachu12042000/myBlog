@@ -1,0 +1,40 @@
+
+.box-right{
+    padding: 0px 0px 0px 15px !important;
+    .box-image{
+        position: relative;
+        padding: 5px;
+    }
+    .box-container{
+        margin-top: 40px;
+    }
+    .text-search{
+        padding: 0px 0px 20px 15px !important;
+    }
+    .button-search{
+        padding: 0px 0px 20px 5px !important;
+    }
+    .mb-15{
+        margin-bottom: 15px;
+    }
+    .box-content{
+        top: -60px;
+        background-color: #fff;
+        padding: 5px 0px !important;
+        .title{
+            text-align: center;
+        }
+        .description {
+            color: #666;
+            font-size: 14px;
+            display: -webkit-box;
+            max-height: 72px;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            -webkit-line-clamp: 3;
+            line-height: 24px;
+        }
+    }
+}

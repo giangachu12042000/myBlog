@@ -1,0 +1,13 @@
+
+import React from 'react';  
+import DetailCategory from '../../app/views/groupArticleDate';
+const DetailCategoryPage = ()=>{
+    return(
+        <DetailCategory /> 
+    )
+}
+DetailCategoryPage.getInitialProps = async (props, res)=>{
+    const { isServer } = props.ctx
+    return { isServer }
+}
+export default DetailCategoryPage

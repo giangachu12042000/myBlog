@@ -1,0 +1,12 @@
+
+.box{
+    padding: 30px 0px;
+    .box-image{
+        position: relative;
+    }
+    .box-content{
+        // position: absolute;
+        top: -60px;
+        background-color: magenta;
+    }
+}

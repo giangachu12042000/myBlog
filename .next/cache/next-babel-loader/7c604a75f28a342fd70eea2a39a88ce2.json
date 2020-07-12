@@ -1,0 +1,1 @@
+{"ast":null,"code":"import localStorage from 'local-storage';\n\nclass Auth {\n  static authenticateUser(token) {\n    localStorage.set('token', token);\n  }\n\n  static getToken() {\n    return localStorage.get('token');\n  }\n\n  static deauthenticateUser() {\n    localStorage.remove('token');\n  }\n\n}\n\nexport default Auth;","map":null,"metadata":{},"sourceType":"module"}
